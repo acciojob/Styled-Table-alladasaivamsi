@@ -1,1 +1,30 @@
 /* your code */
+#course {
+    margin: 0px auto;
+    width: 60%;
+    
+    border-radius: 1rem;
+    overflow: hidden;
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    text-align: center;
+    background-color: mediumseagreen;
+    color: whitesmoke;
+}
+#course th, #course td {
+    border: 1px solid rgb(155, 148, 148);
+    text-align: center;
+    padding: 6px;
+}
+#course th {
+    background-color:rgb(0, 141, 115);
+    color: white;
+}
+#course tr:nth-child(even) {
+    background-color: rgb(199, 194, 194);
+}
+#course tr:hover {
+    background-color: rgb(176, 182, 186);
+}
